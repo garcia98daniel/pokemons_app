@@ -1,0 +1,33 @@
+.pokemonDetails{
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokemon_img{
+    max-height:100vh;
+    width: 50%;
+    object-fit: contain;
+}
+
+.details{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+}
+
+.name{
+    padding-bottom: 100px;
+    font-variant: small-caps;
+}
+
+.name h1{
+    font-size: 6rem !important;
+}
